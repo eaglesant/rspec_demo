@@ -20,8 +20,10 @@ class Hero
     "#{@name} has a health: #{@health}"
   end
 end
- hero = Hero.new('Jeck')
 
- puts hero.name
- puts hero.power_down
- puts hero.hero_info
+
+ # hero = Hero.new('Jeck')
+
+ # puts hero.name
+ # puts hero.power_down
+ # puts hero.hero_info
