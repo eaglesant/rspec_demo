@@ -8,10 +8,19 @@ describe Hero do
 
   end
 
-  it "can power up" do
+  it "can power_up" do
   hero = Hero.new 'jeck'
   expect(hero.power_up).to eq 110
   end
 
+ it "can power_down" do
+  hero = Hero.new 'jeck'
+  expect(hero.power_down).to eq 90
+  end
+
+  it "dispalys full hero info" do
+hero = Hero.new 'jeck'
+expect(hero.hero_info).to  eq "Jeck has a health: 100"
+  end
 
 end
